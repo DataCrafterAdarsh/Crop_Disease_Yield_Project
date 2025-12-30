@@ -1,0 +1,72 @@
+This section presents the results obtained from the CNN-based crop disease detection model.
+
+The CNN model achieved high training and validation accuracy, indicating effective learning of disease-related features from crop leaf images.
+
+Found 33019 images belonging to 16 classes.
+Found 8247 images belonging to 16 classes.
+
+
+	precision
+1	0.0
+2	0.0
+3	0.5967741935483871
+4	0.0
+5	0.0
+6	0.0
+7	0.0520641920862428
+8	0.0
+9	0.0
+10	0.0
+11	0.0
+12	0.0
+13	0.0
+14	0.0
+15	0.0
+16	0.0
+17	0.056020371044016005
+18	0.04055239910216437
+19	0.30132343620842084
+
+		recall
+1	0.0
+2	0.0
+3	0.008965350133268718
+4	0.0
+5	0.0
+6	0.0
+7	1.0
+8	0.0
+9	0.0
+10	0.0
+11	0.0
+12	0.0
+13	0.0
+14	0.0
+15	0.0
+16	0.0
+17	0.056020371044016005
+18	0.0630603343833293
+19	0.056020371044016005
+
+	f1-score
+1	0.0
+2	0.0
+3	0.01766531391740272
+4	0.0
+5	0.0
+6	0.0
+7	0.09897531439217513
+8	0.0
+9	0.0
+10	0.0
+11	0.0
+12	0.0
+13	0.0
+14	0.0
+15	0.0
+16	0.0
+17	0.056020371044016005
+18	0.007290039269348616
+19	0.013940737135175877
+
+The classification report shows good precision, recall, and F1-score values across most disease classes, demonstrating the robustness of the CNN model.

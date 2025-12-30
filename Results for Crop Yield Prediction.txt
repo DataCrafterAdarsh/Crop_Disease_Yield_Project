@@ -1,0 +1,14 @@
+This section discusses the results obtained from machine learning models used for crop yield prediction.
+
+
+| Model                   | Metric Used | Observation          |
+| ----------------------- | ----------- | -------------------- |
+| Linear Regression       | R², RMSE    | Baseline performance |
+| Random Forest Regressor | R², RMSE    | Better accuracy     
+Linear Regression R2: 0.40063022266319237
+Linear Regression RMSE: 692.9927556788663
+
+Random Forest R2: 0.907216894988328
+Random Forest RMSE: 272.65641845611015
+
+Random Forest Regressor outperformed Linear Regression due to its ability to model non-linear relationships in agricultural data. |

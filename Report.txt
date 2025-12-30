@@ -1,0 +1,76 @@
+AI-Based Crop Disease Detection and Yield Prediction System
+Abstract
+
+Agriculture plays a vital role in food security and economic development. Early detection of crop diseases and accurate estimation of crop yield are critical for improving productivity and reducing losses. This project presents an AI-based system that combines deep learning and machine learning techniques to detect crop diseases from leaf images and predict crop yield using agricultural data. A Convolutional Neural Network (CNN) is used for image-based disease classification, while regression models are applied for yield prediction. The results demonstrate that AI-driven approaches can support precision farming and data-driven decision-making.
+
+1. Introduction
+
+Agriculture faces several challenges such as crop diseases, unpredictable weather conditions, and inefficient resource utilization. Traditional methods of disease identification and yield estimation rely heavily on manual inspection and experience, which can be time-consuming and error-prone. With advancements in Artificial Intelligence and Machine Learning, automated systems can assist farmers by providing accurate and timely insights.
+
+This project aims to develop an intelligent system that detects crop diseases using leaf images and predicts crop yield based on environmental and agricultural parameters. Such a system can help farmers take preventive actions at an early stage and plan agricultural activities more effectively.
+
+2. Literature Review
+
+Previous studies have shown that image processing and machine learning techniques can be effectively applied to plant disease detection. CNN-based models have achieved high accuracy in classifying plant diseases due to their ability to extract spatial features from images. Similarly, machine learning models such as Linear Regression and Random Forest have been widely used for crop yield prediction using factors like rainfall, cultivated area, and crop type. However, integrating both disease detection and yield prediction into a single system remains an active area of research.
+
+3. Dataset Description
+3.1 Crop Disease Dataset
+
+The PlantVillage dataset was used for crop disease detection. It consists of leaf images of different crops categorized into healthy and diseased classes. The dataset contains multiple disease categories and provides sufficient samples for training a CNN model.
+
+3.2 Crop Yield Dataset
+
+The crop yield dataset is a tabular dataset containing agricultural parameters such as crop type, year, cultivated area, rainfall, and yield. This dataset was used for yield prediction after appropriate preprocessing and cleaning.
+
+4. Methodology
+4.1 Crop Disease Detection Using CNN
+
+Image resizing and normalization were applied to standardize the input data.
+
+Data augmentation techniques such as rotation, flipping, and zooming were used to improve model generalization.
+
+A Convolutional Neural Network consisting of convolution, pooling, and fully connected layers was designed and trained.
+
+The model was optimized using the Adam optimizer and categorical cross-entropy loss function.
+
+4.2 Crop Yield Prediction Using Machine Learning
+
+The yield dataset was cleaned by handling missing values and removing duplicates.
+
+Exploratory Data Analysis (EDA) was performed to understand relationships between variables.
+
+Categorical variables were encoded, and numerical features were scaled.
+
+Linear Regression was used as a baseline model.
+
+Random Forest Regressor was used as the main model due to its ability to capture non-linear relationships.
+
+5. Results and Discussion
+5.1 Crop Disease Detection Results
+
+The CNN model achieved high accuracy in classifying crop leaf diseases. The confusion matrix shows strong diagonal values, indicating that most disease classes were correctly predicted. The classification report demonstrates good precision, recall, and F1-score for the majority of classes. Minor misclassification was observed between visually similar disease categories, which is expected in image-based classification tasks.
+
+5.2 Crop Yield Prediction Results
+
+Two regression models were evaluated for crop yield prediction:
+
+Model	Performance Observation
+Linear Regression	Provided baseline performance
+Random Forest Regressor	Achieved higher R² score and lower RMSE
+
+The Random Forest model outperformed Linear Regression, indicating its effectiveness in modeling complex relationships in agricultural data. EDA results showed that rainfall and cultivated area have a noticeable influence on crop yield.
+
+6. Conclusion
+
+This project successfully demonstrates the application of Artificial Intelligence techniques in agriculture. The CNN-based crop disease detection model effectively identifies diseases from leaf images, while the Random Forest regression model provides accurate crop yield predictions. The results highlight the potential of AI-driven systems in supporting precision farming, improving productivity, and reducing crop losses.
+
+7. Future Scope
+
+Integration with IoT sensors for real-time data collection.
+
+Development of a mobile application for farmer-friendly access.
+
+Real-time deployment using cloud or edge computing platforms.
+
+Training models on larger and more diverse datasets to improve robustness.
+

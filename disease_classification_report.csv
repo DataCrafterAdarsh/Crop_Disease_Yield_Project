@@ -1,0 +1,20 @@
+,precision,recall,f1-score,support
+Pepper__bell___Bacterial_spot,0.0,0.0,0.0,197.0
+Pepper__bell___healthy,0.0,0.0,0.0,295.0
+PlantVillage,0.5967741935483871,0.008965350133268718,0.01766531391740272,4127.0
+Potato___Early_blight,0.0,0.0,0.0,200.0
+Potato___Late_blight,0.0,0.0,0.0,200.0
+Potato___healthy,0.0,0.0,0.0,30.0
+Tomato_Bacterial_spot,0.0520641920862428,1.0,0.09897531439217513,425.0
+Tomato_Early_blight,0.0,0.0,0.0,200.0
+Tomato_Late_blight,0.0,0.0,0.0,381.0
+Tomato_Leaf_Mold,0.0,0.0,0.0,190.0
+Tomato_Septoria_leaf_spot,0.0,0.0,0.0,354.0
+Tomato_Spider_mites_Two_spotted_spider_mite,0.0,0.0,0.0,335.0
+Tomato__Target_Spot,0.0,0.0,0.0,280.0
+Tomato__Tomato_YellowLeaf__Curl_Virus,0.0,0.0,0.0,641.0
+Tomato__Tomato_mosaic_virus,0.0,0.0,0.0,74.0
+Tomato_healthy,0.0,0.0,0.0,318.0
+accuracy,0.056020371044016005,0.056020371044016005,0.056020371044016005,0.056020371044016005
+macro avg,0.04055239910216437,0.0630603343833293,0.007290039269348616,8247.0
+weighted avg,0.30132343620842084,0.056020371044016005,0.013940737135175877,8247.0
